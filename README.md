@@ -1,5 +1,26 @@
 # Exercice Vizcab : estimation de l'impact carbone d'un projet
 
+
+#Solution
+
+##Lancement
+
+Pour lancer l'application, lancez le script api.py trouvé dans le dossier principal. Une fois 
+l'application lancée vous pouvez vous rendre sur l'adresse indiquée (localhost). Depuis l'adresse principale il y a une liste 
+des différents URL qui sont accessible, qui représente les solutions API aux différents problèmes. Attention pour accéder
+aux URL il faut changer le <'id'> par une valeur comprises entre 0 et 2.
+
+
+##Structure
+
+- `data` Ensemble des fichiers de l'énoncé, contenant les données
+- `model` Ensemble des fichiers contenants les classes et méthodes permettant d'accéder directement aux données
+- `controller` Ensemble des fichiers (ici juste un pour bâtiments, mais potentiellement plus), qui permettent de connecter le modèle à l'interface avec les fonctions d'API.
+- `api.py` Fichier main, executable pour lancer le serveur local
+
+
+#Enoncé
+
 ## Contexte
 
 L'objectif est de développer des fonctions d'API permettant de mettre en oeuvre une analyse de cycle de vie simplifiée d'un projet de construction.
