@@ -1,9 +1,9 @@
 # Exercice Vizcab : estimation de l'impact carbone d'un projet
 
 
-#Solution
+# Solution
 
-##Lancement
+## Lancement
 
 Pour lancer l'application, lancez le script api.py trouvé dans le dossier principal. Une fois 
 l'application lancée vous pouvez vous rendre sur l'adresse indiquée (localhost). Depuis l'adresse principale il y a une liste 
@@ -11,7 +11,7 @@ des différents URL qui sont accessible, qui représente les solutions API aux d
 aux URL il faut changer le <'id'> par une valeur comprises entre 0 et 2.
 
 
-##Structure
+## Structure
 
 - `data` Ensemble des fichiers de l'énoncé, contenant les données
 - `model` Ensemble des fichiers contenants les classes et méthodes permettant d'accéder directement aux données
@@ -19,7 +19,7 @@ aux URL il faut changer le <'id'> par une valeur comprises entre 0 et 2.
 - `api.py` Fichier main, executable pour lancer le serveur local
 
 
-#Enoncé
+# Enoncé
 
 ## Contexte
 
